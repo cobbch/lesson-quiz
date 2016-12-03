@@ -1,0 +1,17 @@
+body {
+  padding: 2em;
+}
+h1, p, .actions {
+  text-align: center;
+}
+.button {
+  color: black;
+  text-decoration: none;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  padding: 0.5em 2em;
+}
+.button:hover {
+  background-color: #eee;
+}
