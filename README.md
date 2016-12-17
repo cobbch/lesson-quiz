@@ -17,10 +17,15 @@
 
 - [ ] `:hover` pseudo-class
 - [ ] `display` attribute
+- [ ] Class selectors(?)
+- [ ] Nested element selectors(?)
 
 **JS**
 
 - [ ] `var` keyword
+- [ ] `alert` function
 - [ ] Conditionals (`if`/`else`)
 - [ ] Functions
+- [ ] Looping (`for/of`)
+- [ ] Input values
 
