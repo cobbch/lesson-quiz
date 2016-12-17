@@ -1,0 +1,31 @@
+<html>
+<head>
+  <link rel="stylesheet" href="tutorial_quiz.css">
+</head>
+<body>
+  <section>
+    <h1>Who won MVP 2x in arow this season and last seaons??</h1>
+    <ol>
+      <li><input type="radio" name="question-01" value="Steph Curry"> Steph Curry</li>
+      <li><input type="radio" name="question-01" value="James Harden"> James Harden</li>
+      <li><input type="radio" name="question-01" value="Kevin Durant"> Kevin Durant</li>
+    </ol>
+    <button class="answer" onclick="answerQuestion01()">Continue</button>
+  </section>
+
+  <script>
+    function answerQuestion01() {
+      var choices = document.getElementsByName('question-01');
+      var choice, value;
+
+      for (choice of choices) {
+        if (choice.checked) {
+          value = choice.value;
+        }
+      }
+
+      alert(value);
+    }
+  </script>
+</body>
+</html>
